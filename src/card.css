@@ -1,0 +1,81 @@
+
+
+.card{
+    display: flex ;
+    flex-direction: column;
+    border: 2px;
+    border-color: #8b8b8b;
+    width: 350px;
+    border: 2px;
+    box-shadow: 5px 5px 5px #8b8b8b;
+    border-radius: 14px;
+    margin: 10px;
+}
+
+.card .header-image img{
+    width: 100%;
+    border-radius: 14px 14px 0px 0px;
+    height: 200px;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-detail-3{
+    background-color: #a2a2a2;
+    border-radius: 0px 0px 14px 14px;
+}
+
+.currency,.card-detail-3,.language{
+    padding:5px 5px 5px 5px;
+}
+
+.currency-name{
+    margin-right: 5px;
+}
+.currency-symbol{
+    margin-left: 5px;
+}
+
+.currency{
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #a2a2a2;
+    color: white;
+}
+.card-details .card-detail-1 h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+.card-details .card-detail-1 h3{
+    font-size: 1em;
+    text-align: center;
+    color: #8b8b8b;
+}
+
+.card-details .card-detail-2{
+    display: flex;
+    flex-direction: column;
+}
+.card-details .card-detail-2 .currency{
+    display: flex;
+    justify-content: space-between;
+}
+.card-details .card-detail-2 .language{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-details .card-detail-3{
+    display:flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+
+
+
